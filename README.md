@@ -20,10 +20,10 @@ The main questions governing this analysis were:
 
 
 # Tools I used
-* SQL:
-* PostgreSQL:
-* Visual Studio Code
-* GitHub
+* SQL: For accessing job data within a database and easy query writing.
+* PostgreSQL: Used as the server.
+* Visual Studio Code: Used to conviently write code in a comprehensive environment.
+* GitHub: To display project for others to see.
 
 
 # The Analysis
