@@ -1,13 +1,13 @@
 # SQL_Project_Data_Job_Analysis
 
-#Introduction
+# Introduction
 
-#Background
+# Background
 
-#Tools I used
+# Tools I used
 
-#The Analysis
+# The Analysis
 
-#What I Learned
+# What I Learned
 
-#Conclusion
+# Conclusion
