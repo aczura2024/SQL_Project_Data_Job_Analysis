@@ -6,7 +6,7 @@ I completed the course SQL for Data Analytics by Luke Barousse (https://youtu.be
 # Background
 The data I used contained information on thousands of job postings in data-related roles. This was obtained from the course by Luke Barousse (https://drive.google.com/drive/folders/1moeWYoUtUklJO6NJdWo9OV8zWjRn0rjN)
 
-To understand more about the data analytcs job market, such as the top-paying jobs, most in-demand skills,  I used this data to conduct various relevant queries.
+To understand more about the data analytcs job market in Canada, such as the top-paying jobs, most in-demand skills,  I used this data to conduct various relevant queries.
 
 
 The main questions governing this analysis were:
@@ -27,7 +27,7 @@ The main questions governing this analysis were:
 
 
 # The Analysis
-Each of the 5 queries was aimed at answering a different question. Below I give a description of how each question is answered. 
+Each of the 5 queries was aimed at answering a different question relating to the data analytics job market in Canada. Below I give a description of how each question is answered. 
 
 
 
