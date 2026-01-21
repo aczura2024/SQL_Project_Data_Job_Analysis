@@ -66,7 +66,8 @@ Here is a summary of the results from the above query:
 - The employers offering these jobs are large financial services companies, such as Stripe, Sunlife and ATB Financial.
 - There is variation in job titles, ranging from Data Analyst, Analytics Engineering Lead and Analytics Lab Architect, showing a range of specializations and roles.
   
-![Top 10 Paying Jobs](Query 1 - Top 10 Paying Jobs.png)
+![Top 10 Paying Jobs](Query%201%20-%20Top%2010%20Paying%20Jobs.png)
+
 
 
 **2. Skills Needed in Canada's Top-Paying Data Analyst Jobs**
@@ -235,8 +236,6 @@ Over the duration of this project, I have mastered the basics of SQL by performi
 
 # Conclusion
 I have learned some major insights about the Canadian job market for data analysts in 2023:
-
-![Top 10 Paying Jobs](Query%201%20-%20Top%2010%20Paying%20Jobs.png)
 
 
 
