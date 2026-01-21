@@ -31,11 +31,13 @@ Each of the 5 queries was aimed at answering a different question relating to th
 
 
 
-**1. Highest Paid Data Analyst Jobs**
+**1. 10 Highest Paid Data Analyst Jobs in Canada**
 ```sql
+-- Jobs in Canada
+
 SELECT
     job_id,
-    job_title,
+    job_title_short,
     job_location,
     job_schedule_type,
     salary_year_avg,
@@ -46,17 +48,17 @@ FROM
 LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
 
 WHERE
-    job_title_short = 'Data Analyst' AND 
-    job_location = 'Anywhere' AND
-    salary_year_avg IS NOT NULL
+    job_title_short = 'Data Analyst' 
+    AND job_location LIKE '%Canada%' 
+    AND salary_year_avg IS NOT NULL
 ORDER BY
-    salary_year_avg DESC    
+    salary_year_avg DESC   
 Limit 10
 ```
 
 
 
-**2. Skills Needed in Top-Paying Jobs**
+**2. Skills Needed in Canada's Top-Paying Data Analyst Jobs**
 
 ```sql
 WITH top_paying_jobs AS (
@@ -71,7 +73,7 @@ WITH top_paying_jobs AS (
 
     WHERE
         job_title_short = 'Data Analyst' AND 
-        job_location = 'Anywhere' AND
+        job_location LIKE '%Canada%' AND
         salary_year_avg IS NOT NULL
     ORDER BY
         salary_year_avg DESC    
@@ -88,7 +90,7 @@ ORDER BY
     salary_year_avg DESC
 ```
 
-**3. Most Desired Skills for Data Analysts**
+**3. Most Desired Skills for Canadian Data Analysts**
 ```sql
 SELECT
     skills,
@@ -98,7 +100,7 @@ INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
     job_title_short = 'Data Analyst' AND 
-    job_work_from_home = TRUE
+    job_location LIKE '%Canada%'
 GROUP BY
     skills
 ORDER BY
@@ -107,7 +109,7 @@ LIMIT 5
 
 ```
 
-**4. Skills Ranked By Salary**
+**4. Data Analyst Skills Ranked By Salary in Canada**
 
 ```
 
@@ -120,16 +122,17 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
     job_title_short = 'Data Analyst' 
     AND salary_year_avg IS NOT NULL
-    AND job_work_from_home = TRUE
+    AND job_location LIKE '%Canada%'
 GROUP BY
     skills
 ORDER BY
     avg_salary DESC 
 LIMIT 25
 
+
 ```
 
-**5. Most Important Skills to Learn**
+**5. Most Important Skills to Learn for Canadian Data Analyst Jobs**
 
 ```sql
 SELECT
@@ -143,11 +146,11 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
     job_title_short = 'Data Analyst'
     AND salary_year_avg IS NOT NULL
-    AND job_work_from_home = True
+    AND job_location LIKE '%Canada%'
 GROUP BY
     skills_dim.skill_id
 HAVING
-    COUNT(skills_job_dim.job_id) > 10
+    COUNT(skills_job_dim.job_id) > 5
 ORDER BY
     avg_salary DESC,
     demand_count DESC
