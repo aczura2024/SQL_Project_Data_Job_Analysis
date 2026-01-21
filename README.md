@@ -136,6 +136,7 @@ Here's the summary of the most demanded skills for data analysts in Canada in 20
 | Tableau   | 454           |
 | Power BI  | 417           |
 
+*Table of the demand for the top 5 skills in Canadian data analyst job postings*
 
 
 **4. Data Analyst Skills Ranked By Salary in Canada**
@@ -185,7 +186,7 @@ Here's a summary of the results of the top paying skills for data analysts in Ca
 | Looker      | 100,500              |
 | Visio       | 100,500              |
 
-
+*Table of the average salary for the top 10 paying skills for Canadian Data Analysts*
 
 
 **5. Most Important Skills to Learn for Canadian Data Analyst Jobs**
@@ -214,6 +215,15 @@ ORDER BY
     demand_count DESC
 LIMIT 25;
 ```
+
+| Skill ID | Skill   | Demand Count | Average Salary (CAD) |
+|----------|---------|--------------|--------------------|
+| 182      | Tableau | 9            | 92,572             |
+| 1        | Python  | 14           | 92,494             |
+| 0        | SQL     | 16           | 89,285             |
+| 181      | Excel   | 9            | 83,563             |
+
+*Table of the most optimal skills for a Canadian data analyst sorted by salary*
 
 # What I Learned
 
