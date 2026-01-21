@@ -32,6 +32,9 @@ Each of the 5 queries was aimed at answering a different question relating to th
 
 
 **1. 10 Highest Paid Data Analyst Jobs in Canada**
+
+I sorted data analyst jobs by salary and specified Canada as the location. The query below shows how I did this.
+
 ```sql
 -- Jobs in Canada
 
@@ -59,6 +62,8 @@ Limit 10
 
 
 **2. Skills Needed in Canada's Top-Paying Data Analyst Jobs**
+
+To learn more about the ideal skillset for a Canadian Data Analyst, I joined the job postings with the skills data to reveal which skills are correlated with higher salaries.
 
 ```sql
 WITH top_paying_jobs AS (
@@ -91,6 +96,8 @@ ORDER BY
 ```
 
 **3. Most Desired Skills for Canadian Data Analysts**
+This query shows how often different skills come up in data analyst postings in Canada.
+
 ```sql
 SELECT
     skills,
@@ -110,6 +117,8 @@ LIMIT 5
 ```
 
 **4. Data Analyst Skills Ranked By Salary in Canada**
+Here I explore the average salary per skill, to understand which skills will yield the greatest income.
+
 
 ```
 
@@ -133,6 +142,8 @@ LIMIT 25
 ```
 
 **5. Most Important Skills to Learn for Canadian Data Analyst Jobs**
+This query extracts both the skills that are in the highest demand and highest paying for data analyst jobs in Canada
+
 
 ```sql
 SELECT
