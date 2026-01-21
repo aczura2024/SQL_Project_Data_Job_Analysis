@@ -159,10 +159,34 @@ GROUP BY
     skills
 ORDER BY
     avg_salary DESC 
-LIMIT 25
+LIMIT 10
 
 
 ```
+Here's a summary of the results of the top paying skills for data analysts in Canada:
+
+- Programming & Scripting Languages: TypeScript and JavaScript top the list, highlighting the demand for analysts who can automate tasks, build interactive dashboards, or work closely with web-based data tools.
+
+- Big Data & Cloud Tools: Spark, Hadoop, BigQuery, and Databricks show that expertise in handling large-scale data, cloud platforms, and distributed computing is highly valued.
+
+- Productivity & Visualization Tools: Sheets, Jira, Looker, and Visio indicate that strong skills in reporting, collaboration, and data visualization/diagramming remain critical for translating insights into business decisions.
+
+
+| Skill       | Average Salary (CAD) |
+|-------------|----------------------|
+| TypeScript  | 108,416              |
+| Spark       | 107,479              |
+| Hadoop      | 107,167              |
+| JavaScript  | 101,750              |
+| BigQuery    | 101,750              |
+| Databricks  | 101,014              |
+| Sheets      | 100,625              |
+| Jira        | 100,500              |
+| Looker      | 100,500              |
+| Visio       | 100,500              |
+
+
+
 
 **5. Most Important Skills to Learn for Canadian Data Analyst Jobs**
 This query extracts both the skills that are in the highest demand and highest paying for data analyst jobs in Canada
