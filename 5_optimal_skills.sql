@@ -1,4 +1,4 @@
--- rewriting Query 6 more concisely
+-- Jobs in Canada
 
 SELECT
     skills_dim.skill_id,
@@ -11,11 +11,11 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
     job_title_short = 'Data Analyst'
     AND salary_year_avg IS NOT NULL
-    AND job_work_from_home = True
+    AND job_location LIKE '%Canada%'
 GROUP BY
     skills_dim.skill_id
 HAVING
-    COUNT(skills_job_dim.job_id) > 10
+    COUNT(skills_job_dim.job_id) > 5
 ORDER BY
     avg_salary DESC,
     demand_count DESC
