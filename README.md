@@ -65,7 +65,7 @@ Here is a summary of the results from the above query:
 - The salary range is rather narrow for the top 10 data analyst jobs, ranging from $100,500 CAD to $111,175 CAD.
 - The employers offering these jobs are large financial services companies, such as Stripe, Sunlife and ATB Financial.
 - There is variation in job titles, ranging from Data Analyst, Analytics Engineering Lead and Analytics Lab Architect, showing a range of specializations and roles.
-
+  
 
 
 **2. Skills Needed in Canada's Top-Paying Data Analyst Jobs**
@@ -123,8 +123,24 @@ LIMIT 5
 
 ```
 
+Here's the summary of the most demanded skills for data analysts in Canada in 2023
+
+- SQL and Excel are the most prominent, highlighting the need for fundamental skills in data processing and spreadsheet manipulation.
+- Python, Tableau and Power BI are essential for analyzing and visualizing data for story telling and decision support.
+
+| Skill     | Demand Count |
+|-----------|---------------|
+| SQL       | 963           |
+| Excel     | 625           |
+| Python    | 588           |
+| Tableau   | 454           |
+| Power BI  | 417           |
+
+
+
 **4. Data Analyst Skills Ranked By Salary in Canada**
 Here I explore the average salary per skill, to understand which skills will yield the greatest income.
+
 
 
 ```
