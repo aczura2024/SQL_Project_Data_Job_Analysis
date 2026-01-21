@@ -227,5 +227,16 @@ LIMIT 25;
 *Table of the most optimal skills for a Canadian data analyst sorted by salary*
 
 # What I Learned
+Over the duration of this project, I have mastered the basics of SQL by performing the following actions:
+* **Advanced SQL Queries:** I handled advanced SQL methods such as merging tables, writing CTEs and joining tables to make data readily available in a single table.
+* **Data Aggregation:** Utilized the GROUP BY method in concert with aggregate functions such as AVG() and COUNT() to summarize data to obtain descriptive statistics.
+* **Analytical Insights** I increased my problem solving skills by using SQL queries to produce visually informative and insightful tables to answer a variety of analytical questions.
+
 
 # Conclusion
+I have learned some major insights about the Canadian job market for data analysts in 2023:
+
+![Top 10 Paying Jobs](Query%201%20-%20Top%2010%20Paying%20Jobs.png)
+
+
+
