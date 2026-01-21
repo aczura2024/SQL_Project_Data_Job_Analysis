@@ -41,6 +41,7 @@ I sorted data analyst jobs by salary and specified Canada as the location. The q
 SELECT
     job_id,
     job_title_short,
+    job_title,
     job_location,
     job_schedule_type,
     salary_year_avg,
@@ -58,6 +59,12 @@ ORDER BY
     salary_year_avg DESC   
 Limit 10
 ```
+
+
+Here is a summary of the results from the above query:
+- The salary range is rather narrow for the top 10 data analyst jobs, ranging from $100,500 CAD to $111,175 CAD.
+- The employers offering these jobs are large financial services companies, such as Stripe, Sunlife and ATB Financial.
+- There is variation in job titles, ranging from Data Analyst, Analytics Engineering Lead and Analytics Lab Architect, showing a range of specializations and roles.
 
 
 
